@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>Bokio.MigraDoc.NetCore</id>
+    <version>3.0.2.0</version>
+    <description>MigraDoc and PdfSharp by Empira, ported to .NET Core by damienbod, NuGet-packed by Bokio</description>
+    <authors>PDFsharp-Team, damienbod, Bokio</authors>
+
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/miniyou/AspNetCorePdf</projectUrl>
+    <!-- <releaseNotes>Summary of changes made in this release of the package.</releaseNotes> -->
+    <!-- <copyright>Copyright 2020</copyright> -->
+    <!--<tags>Tag1 Tag2</tags>-->
+
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="NETStandard.Library" version="2.0.3" />
+        <dependency id="System.Drawing.Common" version="4.5.0" />
+      </group>
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="MigraDoc.DocumentObjectModel\bin\Release\**\MigraDoc.DocumentObjectModel.dll" target="lib" />
+    <file src="MigraDoc.Rendering\bin\Release\**\MigraDoc.Rendering.dll" target="lib" />
+    <file src="PdfSharp\bin\Release\**\PdfSharp.dll" target="lib" />
+    <file src="PdfSharp.Charting\bin\Release\**\PdfSharp.Charting.dll" target="lib" />
+  </files>
+</package>

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2036
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCorePdf", "AspNetCorePdf\AspNetCorePdf.csproj", "{A981D60C-227C-4CCF-91C3-B7BB04220581}"
 EndProject
@@ -9,6 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PdfSharp", "PdfSharp\PdfSha
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{759CA183-EF97-4E08-B68F-9FBEABFC0C88}"
 	ProjectSection(SolutionItems) = preProject
+		Bokio.MigraDoc.NetCore.nuspec = Bokio.MigraDoc.NetCore.nuspec
 		readme.md = readme.md
 	EndProjectSection
 EndProject
