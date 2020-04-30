@@ -15,6 +15,7 @@
 /PDFSharpMigraDocAll/obj
 /MigraDoc.RtfRendering/bin
 /MigraDoc.RtfRendering/obj
+AspNetCorePdf/PdfProvider/Created/
 
 *.csproj.user
 *.nupkg
