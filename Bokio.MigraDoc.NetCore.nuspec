@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Bokio.MigraDoc.NetCore</id>
-    <version>3.0.2.0</version>
+    <version>3.0.3.0</version>
     <description>MigraDoc and PdfSharp by Empira, ported to .NET Core by damienbod, NuGet-packed by Bokio</description>
     <authors>PDFsharp-Team, damienbod, Bokio</authors>
 
