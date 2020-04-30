@@ -15,3 +15,6 @@
 /PDFSharpMigraDocAll/obj
 /MigraDoc.RtfRendering/bin
 /MigraDoc.RtfRendering/obj
+
+*.csproj.user
+*.nupkg
